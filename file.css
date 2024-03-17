@@ -153,6 +153,7 @@ margin-top: 84.77px;
 
 
 .image-one {
+  display: flex;
   width: 735px;
 height: 505px;
 flex-shrink: 0;
@@ -171,6 +172,8 @@ margin: 114px 0px 132px 56px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    flex: auto;
+  align-self: center;
   
   }
   
@@ -262,13 +265,13 @@ margin: 114px 0px 132px 56px;
   border-radius: 20px;
 background: #FFFAFB;
 display: flex;
+flex: 50%;
 margin: 76px 0px 75px 57px;
 }
 
 
 .about-uiux {
   display: flex;
-width: 497px;
 flex-direction: column;
 align-items: center;
 gap: 15px;
@@ -1984,7 +1987,56 @@ height: 505px;
   }
   }
 
-  @media (max-width:480px) {
+/* PHONE SCREEN */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .uiux-course-outline-container, .frontend-course-outline-container, .data-analytics-course-outline-container, .nano-course-outline-container, 
+    .fullstack-design-outline-container, .googlesheets-outline-container, .project-management-outline-container, .graphics-design-outline-container {
+
+      height: 700px;
+      display: flex;
+      flex: 100%;
+      flex-direction: column;
+      margin: 250px 0px 400px 0px;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFF;
+
+    }
+
+    .frontend-schedule {
+      margin-top: 500px;
+    }
+
+    .nano-schedule {
+      margin-top: 1300px;
+    }
+
+    .about-fullstack-design {
+      margin-top: 2900px;
+
+    }
+
+    .fullstack-schedule {
+      margin-bottom: 1400px;
+    }
+
+    .about-data-analytics {
+      margin-top: 800px;
+    }
+
+
+    .about-googlesheets {
+      margin-top: 1500px;
+    }
+
+  .project-management-schedule {
+    margin-top: 1800px;
+  }
+
+
+
     .ui-ux {
       margin-left: 500px;
       font-size: 1.5rem;
