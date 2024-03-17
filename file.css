@@ -166,7 +166,6 @@ margin: 114px 0px 132px 56px;
 
   .img-container {
     background-image: url("free\ test.png");
-    display: flex;
     width: 105.5%;
     height: 600px;
     justify-content: center;
@@ -174,14 +173,6 @@ margin: 114px 0px 132px 56px;
     flex-shrink: 0;
   
   }
-
-  @media (max-width:1307px) {
-      .img-container {
-        width: 106%;
-      }
-  }
-
-
   
   .form-container {
     background: #E3DFDE;
@@ -471,8 +462,9 @@ margin: 40px 0px 0px 68px;
 /* FULLSTACK DESIN ENDS */
 
 
-/*GOOGLE SHEETS BEGINS */
 
+
+/*googlesheet and form course overview ends */
 .googlesheets-overview {
   width: 1240px;
   height: 520px;
@@ -524,11 +516,11 @@ background: var(--WHITE-COLOR, #FAFAFE);
   width: 169px;
  height: 160px;
 background: url(googleforms.png), lightgray 50% / cover no-repeat;
-margin: 0px 0px 25px 0px;
+margin: 0px 0px 0px 0px;
 }
 
-.google-box-one h1,
-  .google-box-two h1  {
+
+.learn {
     display: flex;
     width: 330px;
     height: 29px;
@@ -537,11 +529,11 @@ margin: 0px 0px 25px 0px;
     gap: 10px;
     background: var(--BLACK-COLOR, #0D0D0D);
     color: var(--WHITE-COLOR, #FAFAFE);
-text-align: center;
+    margin: auto;
 
 /* Hbold1 */
 font-family: "Public Sans";
-font-size: 25px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -557,7 +549,7 @@ align-items: center;
 gap: 10px;
 color: #000;
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -580,11 +572,11 @@ border-bottom: 2px solid var(--BLACK-COLOR, #0D0D0D);
 background: #ED212C;
 }
 
-.googlesheet-img{
+.googlesheetss-img{
   width: 169px;
  height: 160px;
 background: url(sheet.png), lightgray 50% / cover no-repeat;
-margin: 0px 0px 25px 0px;
+margin: 0px 0px 0px 0px;
 }
 
  
@@ -599,14 +591,16 @@ align-items: center;
 gap: 10px;
 color: var(--GREY-COLOR, #DDD);
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+/*googlesheet and form course overview ends */
 
+/*GOOGLE SHEETS outline BEGINS */
 
-.googlesheets-img {
+.googlesheet-img {
   width: 652px;
 height: 338px;
 border-radius: 20px;
@@ -1872,6 +1866,16 @@ footer {
 
   /* RESPONSIVENESS */
 
+/* DESKTOP VIEW */
+
+
+  @media screen and (min-device-width: 1024px) 
+  and (max-width:1322px) {
+    .course {
+      width: 1000%;
+    }
+  } 
+
   
   @media (max-width:1137px) {
     .ui-ux {
@@ -1895,6 +1899,10 @@ footer {
     .image-one {
       width: 700px;
 height: 505px;
+    }
+
+    .form-container, .img-container {
+      width: 140%;
     }
 
     .ui-ux-outline, .frontend-outline, .data-analytics-outline, .nano-outline, .fullstack-outline, 
