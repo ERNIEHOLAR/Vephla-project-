@@ -94,14 +94,11 @@ a {
 
 .hero-container {
   width: 1400px;
-height: 761px;
-flex-shrink: 0;
-background: var(--BLUE-COLOR, #02021F);
-display: flex;
+  height: 761px;
+  flex-shrink: 0;
+  background: var(--BLUE-COLOR, #02021F);
+  display: flex;
 }
-
-
-
 
 .text {
   display: block;
@@ -111,121 +108,113 @@ display: flex;
 
 .text h1 {
   width: 448px;
-height: 181px;
-color: #FFFCFC;
-font-family: Poppins;
-font-size: 4rem;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  height: 181px;
+  color: #FFFCFC;
+  font-family: Poppins;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
 .text p {
   width: 485px;
   height: 108px;
   color: #FFF;
-font-family: Poppins;
-font-size: 2.25rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 35px 0px 84.77px 0px;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 35px 0px 84.77px 0px;
 }
 
 .free-test {
   display: inline-flex;
-padding: 14px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 10px;
-border: 1px solid #FFF;
-background: rgba(255, 255, 255, 0.02);
-color: #FFF;
-font-family: Inter;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-top: 84.77px;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.02);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 84.77px;
+  cursor: pointer;
 }
 
-
+.free-test:hover {
+  border: 1px solid #ed212c;
+  background: #ed212c;
+}
 
 .image-one {
   display: flex;
   width: 735px;
-height: 505px;
-flex-shrink: 0;
-background: url(images/courses\ img.png), lightgray 50% / cover no-repeat;
-margin: 114px 0px 132px 56px;
+  height: 505px;
+  flex-shrink: 0;
+  background: url(images/courses\ img.png), lightgray 50% / cover no-repeat;
+  margin: 114px 0px 132px 56px;
 }
 
-
-
-  /* freee test section */
-
+/* freee test section */
   .img-container {
-    background-image: url("images/free\ test.png");
-    width: 105.5%;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    flex: auto;
-  align-self: center;
-  
+  background-image: url("images/free\ test.png");
+  width: 105.5%;
+  height: 600px;
   }
   
   .form-container {
-    background: #E3DFDE;
-    width: 105.5%;
-    height: 1144px;
+  background: #E3DFDE;
+  width: 105.5%;
+  height: 1144px;
   }
   
   .form-container h2 {
-    padding: 60px 0px;
-    color: var(--BLACK-COLOR, #0D0D0D);
-  
+  padding: 60px 0px;
+  color: var(--BLACK-COLOR, #0D0D0D);
     /* Hbold2 */
-    font-family: "Public Sans";
-    font-size: 1.94rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    
+  font-family: "Public Sans";
+  font-size: 1.94rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   }
   
-    form {
-      border-radius: 50px;
-      border: 1px solid #000;
-      background: #FFFCFC;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      width: 1082px;
-      height: 928px;
-      flex-shrink: 0;
-      text-align: left;
-      color: #000;
-      font-family: Inter;
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      padding: 214px 71px 107px 71px;
-      
+  form {
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #FFFCFC;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 1082px;
+  height: 928px;
+  flex-shrink: 0;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 214px 71px 107px 71px;  
    }
   
    form input {
-      border-radius: 20px;
-      border: 1px solid #000;
-      background: #FFFCFC;
-      width: 940px;
-      height: 76px;
-      flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFFCFC;
+    width: 940px;
+    height: 76px;
+    flex-shrink: 0;
    }
   
    form input:focus {
-      outline: none;
+    outline: none;
    }
   
   form button {
@@ -246,15 +235,21 @@ margin: 114px 0px 132px 56px;
     line-height: normal;
     border: none;
   }
+
+  form button:hover {
+    background: transparent;
+    color: #ED212C;
+    border: 1px solid #ED212C;
+    font-size: 1.4rem;
+  }
   
   label {
       display: block;
   }
- 
 /*HERO SECTION ENDS */
 
 
-/*course outline BEINS*/
+/*course outline BEGINS*/
 /*UI UX*/
 .uiux-course-outline-container, .frontend-course-outline-container, .data-analytics-course-outline-container, 
 .nano-course-outline-container, .fullstack-design-outline-container, .googlesheets-outline-container,
@@ -263,10 +258,10 @@ margin: 114px 0px 132px 56px;
   height: 630px;
   flex-shrink: 0;
   border-radius: 20px;
-background: #FFFAFB;
-display: flex;
-flex: 50%;
-margin: 76px 0px 75px 57px;
+  background: #FFFAFB;
+  display: flex;
+  flex: 50%;
+  margin: 76px 0px 75px 57px;
 }
 
 
@@ -348,8 +343,6 @@ align-items: flex-start;
 gap: 30px;
 }
 
-
-
 .course-overview, .register {
 display: flex;
 padding: 18px 4px;
@@ -365,10 +358,16 @@ font-size: 0.625rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-
+cursor: pointer;
 }
 
+.register {
+  padding: 18px 15px;
+}
 
+.course-overview:hover, .register:hover {
+  color: rgba(0, 6, 255, 0.7);
+}
 
 .ui-schedule, .frontend-schedules, .data-schedule, .nano-schedules, .stack-schedule, 
 .sheets-schedule, .project-managements-schedule, .graphics-designs-schedule {
@@ -700,10 +699,10 @@ margin-top: 75px;
 }
 
 .box-one {
-  display: flex;
+display: flex;
 width: 612px;
 height: 405px;
-padding: 230px 40px;
+padding: 200px 40px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -725,7 +724,7 @@ backdrop-filter: blur(2px);
 display: flex;
 width: 612px;
 height: 405px;
-padding: 230px 40px;
+padding: 200px 40px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -745,10 +744,10 @@ margin: 61px 0px 0px 16px;
 }
 
 .box-three {
-  display: flex;
+display: flex;
 width: 612px;
 height: 405px;
-padding: 230px 40px;
+padding: 200px 40px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -766,13 +765,11 @@ width: 298px;
 height: 210px;
 }
 
-
-
 .box-four {
   display: flex;
   width: 612px;
   height: 405px;
-  padding: 230px 40px;
+  padding: 200px 40px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -797,7 +794,7 @@ margin: 50px 0px 0px 0px;
   display: flex;
   width: 612px;
   height: 405px;
-  padding: 230px 40px;
+  padding: 200px 40px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -816,10 +813,10 @@ margin: 0px 16px 0px 0px;
   }
 
 .box-six {
-  display: flex;
+display: flex;
 width: 612px;
 height: 405px;
-padding: 230px 40px;
+padding: 200px 40px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -840,10 +837,10 @@ margin: 50px 0px 0px 0px;
   }
 
 .box-seven {
-  display: flex;
+display: flex;
 width: 612px;
 height: 405px;
-padding: 260px 40px;
+padding: 200px 40px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -881,6 +878,12 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 margin: 75px 0px 50px 0px;
+cursor: pointer;
+}
+
+.ui-ux:hover {
+  background: #161616;
+  color: #FAFAFE;
 }
 
 
@@ -1873,11 +1876,11 @@ footer {
 
   /*FOOTER ENDS */
 
+
+
   /* RESPONSIVENESS */
 
 /* DESKTOP VIEW */
-
-
   @media screen and (min-device-width: 1024px) 
   and (max-width:1322px) {
     .course {
@@ -1885,13 +1888,11 @@ footer {
     }
   } 
 
-  
   @media (max-width:1137px) {
     .ui-ux {
      margin-left: 150px;
      font-size: 0.9rem;
     }
-  
   
   }
 
@@ -1936,6 +1937,10 @@ height: 505px;
 
 }
 
+
+/*DESKTOP VIEW ENDS*/
+
+
 /*768px screen size ipad and tabs */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1978,12 +1983,43 @@ height: 505px;
   margin-bottom: 20px;
   }
 
+  /* FREE TEST FORM RESPONSIVENESS */ 
+.hero-section {
+  width: 130%;
+}
+.form-container {
+  background: #E3DFDE;
+  width: 136.9%;
+}
   
   }
 
-/* PHONE SCREEN */
+  /*IPAD AND TAB VIEW ENDS */
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .ui-ux {
+      display: flex;
+      font-size: 0.95rem;
+      width: 270px;
+      height: 58px;
+      padding: 25px 6px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 420px;
+    }
+  }
+/* Media Query for low resolution  TABLETS, IPADS ENDS */
+
+
+
+/* PHONE SCREEN RESPONSIVENESS BEGINS*/
 
   @media (min-width: 320px) and (max-width: 480px) {
+
+    /*COURSES AND PLANS */
 
     .uiux-course-outline-container, .frontend-course-outline-container, .data-analytics-course-outline-container, .nano-course-outline-container, 
     .fullstack-design-outline-container, .googlesheets-outline-container, .project-management-outline-container, .graphics-design-outline-container {
@@ -2075,10 +2111,10 @@ height: 505px;
     .graphics-design-schedule {
       margin-top: 160px;
     }
-
+/* COURSES AND PLANS ENDS */
     
 
-
+/* RESPONSIVENESS FOR EACH COURSE */
   .overview p {
     font-size: 1.3rem;
   }
@@ -2163,9 +2199,42 @@ height: 505px;
       font-size: 1.5rem;
       width: 350px;
      }
+/* COURSE RESPONSIVENESS ENDS */
 
-     
+
+/* FREE TEST FORM RESPONSIVENESS */ 
+.hero-section {
+  width: 208%;
+}
+.form-container {
+  background: #E3DFDE;
+  width: 291%;
+}
+
+
+/*FOOTER RESPONSIVENESS */
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+.footer-nav img {
+  padding: 30px 0px;
+}    
   }
+
+
+/* max-width 446px */
+@media (min-width: 320px) and (max-width: 446px) {
+  .flexbox, .flex-boxes, .flexboxes, 
+  .boxes {
+    margin: 30px 0px 0px 185%;
+  }
+}
 
 
 /* nav bar */
