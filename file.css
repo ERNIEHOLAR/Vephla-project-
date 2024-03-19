@@ -637,6 +637,19 @@ background: url(images/project-management.png), lightgray 50% / cover no-repeat;
 margin: 40px 68px 50px 0px;
 }
 
+#more {
+ display: none;
+}
+
+#myBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: #FAFAFE;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .graphics-image {
   width: 652px;
 height: 338px;
